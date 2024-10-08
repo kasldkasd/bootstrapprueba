@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Wiki</title>
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://media.istockphoto.com/id/1162669873/es/vector/bonitas-patas-de-panda-sobre-la-pared-icono-de-dibujos-animados-de-la-cara-del-panda.jpg?s=612x612&w=0&k=20&c=JNGCrESbhBniWiFgDUAkE3--6b_lDU5X6L61MHA2TWQ=" alt="" class="logo__img">
+            <h1>PANDA WIKI</h1>
+        </div>
+        <nav>
+            <ul class="nav__menu">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section class="main_imgs">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/nationalgeographic2496738.jpg?w=1600&h=900" class="d-block w-100" alt="panda">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Panda gigante</h5>
+                              </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media.nature.com/lw767/magazine-assets/d41586-024-00614-7/d41586-024-00614-7_26806734.jpg" class="d-block w-100" alt="pandaqinling">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Panda de Qinling</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.faunia.es/content/dam/fau/images/descubre-faunia/planea-tu-visita/animales/mami%CC%81feros/panda-rojo/faunia-animales-panda-rojo%20(1).jpg" class="d-block w-100" alt="pandarojo">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Panda rojo</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <section class="info"> 
+                <h2>Informacion de los pandas</h2>
+                <p>El panda gigante (Ailuropoda melanoleuca) es uno de los animales más icónicos y reconocidos del mundo. Con su característico pelaje blanco y negro, 
+                    este mamífero nativo de las montañas de China ha capturado la atención global, tanto por su adorable apariencia como por su estatus de especie vulnerable.</p>
+                <h3>Caracteristicas</h3>
+                <ul>
+                    <li>Pelaje: Los pandas gigantes tienen un pelaje distintivo de color blanco y negro. Su cara, cuello, vientre y la parte interior de las extremidades son blancas, mientras que las orejas, la zona alrededor de los ojos, las patas y los hombros son negros.</li>
+                    <li>Tamaño: Los pandas adultos miden entre 1.2 a 1.9 metros de longitud y pueden pesar entre 70 y 160 kilogramos. </li>
+                    <li>Cráneo y mandíbulas: Tienen un cráneo grande y mandíbulas fuertes, lo que les permite masticar el bambú, que constituye la mayor parte de su dieta.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Subespecies de pandas</h3>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">  Panda de Qinling</button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p> Es una subespecie del panda gigante, reconocible por su pelaje más oscuro y manchas más pronunciadas. Se encuentra en la cordillera Qinling, en la provincia de Shaanxi, China.
+                                Genéticamente, esta subespecie es distinta del panda gigante estándar, y su población es más pequeña y menos conocida. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Panda Rojo</button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            <p>A menudo confundido con el panda gigante, el panda rojo es más pequeño y tiene un pelaje rojizo y cola anillada.
+                            Se encuentra en el Himalaya, en regiones como Nepal, India, Bután y en algunas partes del suroeste de China.
+                            Habita bosques de coníferas y de hoja perenne en montañas frías y húmedas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <h3>Apadrina un oso panda</h3>
+            <section class="seccion__apadrinar">
+                <div class="card">
+                    <img src="https://www.wwlp.com/wp-content/uploads/sites/26/2018/05/panda20baby_1527332040832.jpg_43558521_ver1.0.jpg?w=650" alt="pandapo" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Po</h5>
+                        <p class="card-text">¡Te presentamos a Po, un pequeño panda que está robando corazones en nuestro santuario! A solo seis meses, Po es puro amor y energía. Con su pelaje suave y ese dulce rostro blanco y negro, es imposible no sonreír al verlo.</p>
+                        <div class="apadrinar__button">
+                            <a href="#" class="btn btn-primary">Apadrinar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.mos.cms.futurecdn.net/US4H2Gx7NQ56Q6QHXd33MW.jpg" class="card-img-top" alt="pandamao">
+                    <div class="card-body">
+                        <h5 class="card-title">Mao</h5>
+                        <p class="card-text">¡Te presentamos a Mao, un impresionante panda adulto de Qinling! Con su distintivo pelaje en tonos oscuros y claros, Mao es un verdadero embajador de su especie. A sus cinco años, ha alcanzado la madurez y ha desarrollado una personalidad encantadora que conquista a todos los que lo conocen.</p>
+                        <div class="apadrinar__button">
+                            <a href="#" class="btn btn-primary">Apadrinar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://c.files.bbci.co.uk/169F6/production/_91026629_gettyimages-519508400.jpg" class="card-img-top" alt="pandaimg3">
+                    <div class="card-body">
+                        <h5 class="card-title">Luna</h5>
+                        <p class="card-text">¡Te presentamos a Luna, una adorable panda que ilumina nuestro santuario! A sus tres años, Luna es una joven panda llena de energía y curiosidad. Su pelaje suave y esponjoso, combinado con su expresión juguetona, hace que sea imposible no enamorarse de ella.</p>
+                        <div class="apadrinar__button">
+                            <a href="#" class="btn btn-primary">Apadrinar</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

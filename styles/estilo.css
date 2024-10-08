@@ -1,0 +1,86 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+
+}
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+
+.carousel-inner img{
+    max-height: 500px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo__img{
+    width:150px;
+}
+
+.logo h1{
+    margin:0;
+}
+
+.nav__menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap:30px;
+    font-size: clamp(0.8rem,1.4vw,2rem);
+}
+
+.nav__menu li a{
+    all:unset;
+    cursor: pointer;
+}
+
+.info h2, h3{
+    text-align: center;
+    margin: 30px 0px;
+}
+.accordion-collapse{
+    width:900px;
+    margin: 0 auto;
+}
+.card{
+    width: 18rem;
+}
+.seccion__apadrinar{
+    display: flex;
+    justify-content: space-between;
+}
+.card-img-top{
+    width:18rem;
+    height: 9rem;
+}
+.card-title{
+    text-align: center;
+}
+
+.apadrinar__button{
+    display: flex;
+    justify-content: center;
+}
+.formulario h2{
+    text-align: center;
+}
+.form-group{
+    margin: 30px 0px;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+}
